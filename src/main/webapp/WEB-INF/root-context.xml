@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.ssg.w2">
+
+    </context:component-scan>
+
+<!--    <bean class="com.ssg.springex.sample.SampleDAO"></bean>-->
+<!--    <bean class="com.ssg.springex.sample.SampleService"></bean>-->
+</beans><!--호출해서 사용할 빈들을 적어놓는 태그-->
